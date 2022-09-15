@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.central {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.logo {
+    display: block;
+    width: 128px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+	background-color: #FFF;    
+    padding: 10px 24px 0px 24px;
+}
+
+
+.box {
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 2px solid #E6E6E6;    	
+    padding: 50px 50px;
+	margin-bottom: 10px;
+    display: flexbox;
+    
+	
+}
+
+.body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(26, 26, 26);
+    font-size: 16px;
+    line-height: 24px;
+}
+.html, body, input, select, optgroup, textarea, button {
+    font-weight: 400;
+    font-family: -apple-system-ui,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.h2 {
+	padding-top: 1px;
+}
+
+.campo {
+    padding: 10px;
+    margin: 10px;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+    
+    
+}
+
+.rodape {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
